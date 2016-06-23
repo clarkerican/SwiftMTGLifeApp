@@ -13,6 +13,7 @@
 		88F22B121D1B54F200F32961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F22B111D1B54F200F32961 /* Assets.xcassets */; };
 		88F22B151D1B54F200F32961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F22B131D1B54F200F32961 /* LaunchScreen.storyboard */; };
 		88F22B201D1B54F200F32961 /* Magic_Life_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F22B1F1D1B54F200F32961 /* Magic_Life_CounterTests.swift */; };
+		88F22B2B1D1B6C9800F32961 /* LifeStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F22B2A1D1B6C9800F32961 /* LifeStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		88F22B1B1D1B54F200F32961 /* Magic Life CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic Life CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F22B1F1D1B54F200F32961 /* Magic_Life_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_Life_CounterTests.swift; sourceTree = "<group>"; };
 		88F22B211D1B54F200F32961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F22B2A1D1B6C9800F32961 /* LifeStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				88F22B0A1D1B54F200F32961 /* AppDelegate.swift */,
 				88F22B0C1D1B54F200F32961 /* ViewController.swift */,
 				88F22B0E1D1B54F200F32961 /* Main.storyboard */,
+				88F22B2A1D1B6C9800F32961 /* LifeStepper.swift */,
 				88F22B111D1B54F200F32961 /* Assets.xcassets */,
 				88F22B131D1B54F200F32961 /* LaunchScreen.storyboard */,
 				88F22B161D1B54F200F32961 /* Info.plist */,
@@ -199,6 +202,7 @@
 			files = (
 				88F22B0D1D1B54F200F32961 /* ViewController.swift in Sources */,
 				88F22B0B1D1B54F200F32961 /* AppDelegate.swift in Sources */,
+				88F22B2B1D1B6C9800F32961 /* LifeStepper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Magic Life Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clark.Magic-Life-Counter";
@@ -340,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Magic Life Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clark.Magic-Life-Counter";
