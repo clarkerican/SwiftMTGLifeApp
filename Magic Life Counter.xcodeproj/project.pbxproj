@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885C4C591D2DE138006598A9 /* DeckProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C4C581D2DE138006598A9 /* DeckProfile.swift */; };
 		88F22B0B1D1B54F200F32961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F22B0A1D1B54F200F32961 /* AppDelegate.swift */; };
 		88F22B0D1D1B54F200F32961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F22B0C1D1B54F200F32961 /* ViewController.swift */; };
 		88F22B101D1B54F200F32961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F22B0E1D1B54F200F32961 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		885C4C581D2DE138006598A9 /* DeckProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckProfile.swift; sourceTree = "<group>"; };
 		88F22B071D1B54F200F32961 /* Magic Life Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Life Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F22B0A1D1B54F200F32961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F22B0C1D1B54F200F32961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				88F22B111D1B54F200F32961 /* Assets.xcassets */,
 				88F22B131D1B54F200F32961 /* LaunchScreen.storyboard */,
 				88F22B161D1B54F200F32961 /* Info.plist */,
+				885C4C581D2DE138006598A9 /* DeckProfile.swift */,
 			);
 			path = "Magic Life Counter";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885C4C591D2DE138006598A9 /* DeckProfile.swift in Sources */,
 				88F22B0D1D1B54F200F32961 /* ViewController.swift in Sources */,
 				88F22B0B1D1B54F200F32961 /* AppDelegate.swift in Sources */,
 				88F22B2B1D1B6C9800F32961 /* LifeStepper.swift in Sources */,
@@ -396,6 +400,7 @@
 				88F22B261D1B54F200F32961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F22B271D1B54F200F32961 /* Build configuration list for PBXNativeTarget "Magic Life CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				88F22B291D1B54F200F32961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

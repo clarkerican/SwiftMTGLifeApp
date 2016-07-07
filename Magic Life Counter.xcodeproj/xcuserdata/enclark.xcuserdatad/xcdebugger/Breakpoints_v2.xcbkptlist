@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Magic Life Counter/DeckProfile.swift"
+            timestampString = "489546101.191237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DeckProfile"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Life_Counter.DeckProfile.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Magic_Life_Counter.DeckProfile"
+                  moduleName = "Magic Life Counter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enclark/Desktop/Magic%20Life%20Counter/Magic%20Life%20Counter/DeckProfile.swift"
+                  timestampString = "489546769.784514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Life_Counter.DeckProfile.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Magic_Life_Counter.DeckProfile&gt;"
+                  moduleName = "Magic Life Counter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enclark/Desktop/Magic%20Life%20Counter/Magic%20Life%20Counter/DeckProfile.swift"
+                  timestampString = "489546769.785216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
