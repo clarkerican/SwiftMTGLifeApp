@@ -19,7 +19,7 @@ class DeckProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
     //MARK: Overridden methods
     
     override func viewDidLoad() {
-            super.viewDidLoad()
+        super.viewDidLoad()
     }
     
     //MARK: Action
@@ -48,4 +48,7 @@ class DeckProfile: UIViewController, UIImagePickerControllerDelegate, UINavigati
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    //MARK: SocketIO
+    
+
 }
