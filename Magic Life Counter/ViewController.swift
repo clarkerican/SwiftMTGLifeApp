@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var stepper1For1: UIStepper!
     var life1 = 20.0
     var life2 = 20.0
-    let socket = SocketIOClient(socketURL: NSURL(string:"http://192.168.2.7:8000")!)
+    let socket = SocketIOClient(socketURL: NSURL(string:"http://192.168.1.19:8000")!)
+    var gameID : String?
     
     let error : NSError? = nil
     
@@ -46,6 +47,13 @@ class ViewController: UIViewController {
     //All the steppers will go through this method to change the life totals
 
     @IBAction func stepperValueChanged(sender: UIStepper) {
+        
+        let JSON = [
+            "playerName" : "Erica"
+            ] as NSDictionary
+        
+        
+        self.socket.emit("connected",(JSON as AnyObject))
         
         var value1 = player1.text
         var value2 = player2.text
@@ -73,6 +81,7 @@ class ViewController: UIViewController {
         }
         
        let myJSON = [
+           // "gameID" : gameID!,
             "player1": value1!,
             "player2": value2!
         ] as NSDictionary
@@ -86,8 +95,6 @@ class ViewController: UIViewController {
         
         self.socket.on("message"){[weak self] data, ack in
             print(data)
-            
-            
             
             if let json = data[0] as? NSDictionary{
                 

@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Magic Life Counter/DeckProfile.swift"
@@ -19,36 +19,83 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Life_Counter.DeckProfile.__deallocating_deinit"
+                  moduleName = "Magic Life Counter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enclark/Desktop/Magic%20Life%20Counter/Magic%20Life%20Counter/DeckProfile.swift"
+                  timestampString = "489804499.257693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Magic_Life_Counter.DeckProfile.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Magic_Life_Counter.DeckProfile"
                   moduleName = "Magic Life Counter"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/enclark/Desktop/Magic%20Life%20Counter/Magic%20Life%20Counter/DeckProfile.swift"
-                  timestampString = "489546769.784514"
+                  timestampString = "489804499.257954"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "107">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Magic_Life_Counter.DeckProfile.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Magic_Life_Counter.DeckProfile&gt;"
                   moduleName = "Magic Life Counter"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/enclark/Desktop/Magic%20Life%20Counter/Magic%20Life%20Counter/DeckProfile.swift"
-                  timestampString = "489546769.785216"
+                  timestampString = "489804499.258138"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "105">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "31">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Magic Life Counter/DeckProfile.swift"
+            timestampString = "489871804.758845"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "DeckProfile"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Magic Life Counter/ViewController.swift"
+            timestampString = "491680346.466223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "stepperValueChanged(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
